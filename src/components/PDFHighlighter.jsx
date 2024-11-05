@@ -54,7 +54,7 @@ const PDFHighlighter = ({ pageNumber, coordinates }) => {
   }, [pageNumber, coordinates]);
 
   return (
-    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+    <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.js">
       <div style={{ height: '750px' }}>
         <Viewer
           fileUrl="/fnins-09-00002.pdf"  // Replace with your PDF file path
